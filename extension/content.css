@@ -1,0 +1,41 @@
+/* ReadEase Content Styles v1.6 */
+
+/* Bionic reading anchors */
+.re-anchor {
+  font-weight: 700 !important;
+  color: inherit !important;
+}
+
+.re-bionic {
+  display: inline !important;
+}
+
+/* Focus Filter - Blur Effect */
+.re-dimmed {
+  filter: blur(4px) !important;
+  opacity: 0.4 !important;
+  transition: filter 0.25s ease, opacity 0.25s ease !important;
+  cursor: pointer !important;
+  user-select: none !important;
+}
+
+.re-dimmed:hover {
+  filter: blur(0) !important;
+  opacity: 1 !important;
+  user-select: auto !important;
+}
+
+.re-filtered {
+  position: relative;
+}
+
+/* Reading highlight */
+.re-reading {
+  background: linear-gradient(90deg, 
+    rgba(139, 92, 246, 0.15) 0%, 
+    rgba(99, 102, 241, 0.2) 50%, 
+    rgba(139, 92, 246, 0.15) 100%) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2) !important;
+  transition: all 0.2s ease !important;
+}
